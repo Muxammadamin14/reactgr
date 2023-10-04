@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: rgb(88, 85, 85);
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  padding: 20px 0;
+  background-color: rgb(48, 48, 48);
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+a.active {
+  border-bottom: 2px solid #fff;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
